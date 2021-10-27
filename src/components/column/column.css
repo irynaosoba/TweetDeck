@@ -1,0 +1,26 @@
+.column-item {
+    margin: 0 3px 0 0;
+    width: 310px;
+    height: 100vh;
+    overflow: scroll;
+    background-color: #FFFFFF;
+    border-bottom: 3px solid #dedede;
+}
+
+.column-item-first {
+    position: absolute;
+    left: 65px;
+    background-color: red;
+}
+
+.column-item-second {
+    left: 23.6rem;
+}
+
+.column-item-third {
+    left: 692px;
+}
+
+.column-item-fourth {
+    left: 1006px;
+}

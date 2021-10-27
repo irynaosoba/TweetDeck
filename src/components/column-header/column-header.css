@@ -1,0 +1,40 @@
+.column-header {
+    position: relative;
+    height: 3.4rem;
+    width: 310px;
+    border-bottom: 1px solid #CCD6DD;
+    /*background-color: #1c2938;*/
+}
+
+.new-tweet-header {
+    height: 3.4rem;
+    border-bottom: 1px solid #CCD6DD;
+    width: 240px;
+    background-color: #2A7AB9;
+}
+
+.column-header-svg {
+    margin-top: 13px;
+    vertical-align: sub;
+    fill: #acacac;
+}
+
+.column-header-value {
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.column-header-menu{
+    position: absolute;
+    top: 14px;
+    left: 270px;
+    stroke: #1DA1F1;
+    width: 26px;
+    height: 26px;
+}
+
+.column-screen-name {
+    font-size: 13px;
+}

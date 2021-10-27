@@ -1,0 +1,145 @@
+.new-tweet-column {
+    display: inline-block;
+    margin: 0 3px 0 -3px;
+    padding: 0 15px;
+    width: 240px;
+    height: 100vh;
+    background-color: #2b7bb9;
+    transition: width .3s;
+}
+
+.none-tweet-column {
+    visibility: hidden;
+    width: 0;
+    transition: width .3s;
+}
+
+.tweet-author-text {
+    margin-top: 17px;
+    font-size: 14px;
+    color: #71c9f8;
+}
+
+.profile-picture {
+    margin: 0 auto;
+    width: 240px;
+    height: 60px;
+}
+
+.prof-pic-format {
+    float: right;
+}
+
+.profile-picture-format {
+    margin: 0 2px;
+}
+
+.profile-picture-format path {
+    width: 20px;
+    height: 20px;
+    fill: #719cc1;
+}
+
+textarea {
+    margin: 12px auto 10px;
+    height: 146px;
+    width: 220px;
+    padding: 10px;
+    resize: none;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;;
+}
+
+.postTweet, .filledTweet {
+    margin-left: 175px;
+    width: 64px;
+    height: 36px;
+    padding: 6px 12px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    vertical-align: middle;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.postTweet {
+    color: #71c9f8;
+    background-color: #248ED5;
+}
+
+.filledTweet {
+    color: #ffffff;
+    background-color: #1da1f2;
+}
+
+.additional-features {
+    width: 240px;
+    height: 38px;
+    padding: 5px 12px;
+    margin-bottom: 12px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+
+    color: #FFFFFF;
+    background-color: #1da1f2;
+    text-align: left;
+    font-weight: 600;
+}
+
+.additional-features:hover {
+    background-color: #015ED1;
+}
+
+.additional-features-img {
+    margin-right: 8px;
+}
+
+svg.additional-features-img {
+    width: 20px;
+    height: 20px;
+}
+
+.additional-features-text {
+    display: inline-block;
+    height: 20px;
+    vertical-align: bottom;
+    font-size: 14px;
+}
+
+.stay-open-btn {
+    padding-top: 60px;
+    text-align: right;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+input[type="checkbox" i] {
+    margin: auto 5px;
+    vertical-align: text-bottom;
+}
+
+.scheduled-tweet {
+    position: relative;
+}
+
+.react-datepicker__input-container input {
+    position: absolute;
+    height: 38px;
+    top: -28px;
+    left: -202px;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-weight: 600;
+
+
+    color: #ffffff;
+    z-index: 3;
+}

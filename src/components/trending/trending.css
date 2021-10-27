@@ -1,0 +1,30 @@
+.trending-item {
+    display: flex;
+    padding: 12px;
+    height: 36px;
+    border-bottom: #f0f0f0 .5px solid;
+    color: #1DA1F1;
+}
+
+.trending-item-number {
+    display: inline-block;
+    margin: auto 0;
+    width: 9%;
+    font-size: 14px;
+    text-align: right;
+    vertical-align: super;
+    color: black;
+    font-weight: 500;
+}
+
+.trend {
+    padding-left: 14px;
+    margin: auto 0;
+    font-size: 14px;
+}
+
+.tweet-count {
+    padding-top: 3px;
+    font-size: 10px;
+    color: black;
+}

@@ -1,0 +1,36 @@
+.tweet-box {
+    display: flex;
+    padding: 8px 10px;
+    border-bottom: #f0f0f0 .5px solid;
+}
+
+.tweet-user-name {
+    margin-right: 6px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tweet-user-screen-name {
+    font-size: 11px;
+}
+
+.tweet-profile-img {
+    padding-right: 10px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.tweet-text {
+    margin: 4px 0;
+    font-size: 13px;
+}
+
+.tweet-add {
+    display: flex;
+}
+
+.tweet-add div {
+    margin-right: 10px;
+    cursor: pointer;
+}

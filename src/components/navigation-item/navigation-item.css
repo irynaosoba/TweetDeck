@@ -1,0 +1,274 @@
+.app-navigator .newTweet-btn {
+    position: relative;
+    margin: 18px 0 10px 0;
+    padding: 0;
+    width: 33px;
+    height: 33px;
+    border: none;
+
+    background-color: #1DA1F1;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.app-navigator .newTweet-btn:hover {
+    background-color: #015ED1;
+    transition: background-color 100ms ease-out;
+}
+
+.app-navigator-full-size .newTweet-btn {
+    position: relative;
+    margin: 18px 0 10px 0;
+    padding: 0;
+    width: 150px;
+    height: 34px;
+    border: none;
+
+    text-align: center;
+    background-color: #1DA1F1;
+    border-radius: 25px;
+    z-index: 0;
+}
+
+.app-navigator .newTweet-title {
+    display: none;
+}
+
+.app-navigator-full-size .newTweet-title {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 900;
+    margin: auto;
+}
+
+.app-navigator .newTweet-btn-svg {
+    position: absolute;
+    top: 23%;
+    left: 25%;
+    fill: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    z-index: 10;
+}
+
+.app-navigator-full-size .newTweet-btn-svg {
+    display: none;
+}
+
+.app-navigator .search-btn {
+    position: relative;
+    margin-bottom: 14px;
+    padding: 0;
+    width: 33px;
+    height: 33px;
+    border: thin solid #1DA1F1;
+
+    text-align: center;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.app-navigator .search-btn-svg {
+    position: absolute;
+    top: 19%;
+    left: 21%;
+    stroke: #1DA1F1;
+    width: 20px;
+    height: 20px;
+}
+
+.app-navigator-full-size .search-btn {
+    position: relative;
+    margin-bottom: 14px;
+    padding: 0;
+    width: 150px;
+    height: 34px;
+
+    text-align: center;
+    background-color: #10171E;
+    border: 1px solid #09111a;
+    border-radius: 25px;
+    z-index: 0;
+}
+
+.app-navigator-full-size .search-btn-svg {
+    position: absolute;
+    top: 26%;
+    right: 7%;
+    stroke: #aab8c2;
+    width: 16px;
+    height: 16px;
+}
+
+.app-navigator .search-btn-input {
+    display: none;
+}
+
+.app-navigator-full-size .search-btn-input {
+    padding-left: 15px;
+    width: 133px;
+    height: 34px;
+    font-size: 13px;
+
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    background-color: #10171E;
+    z-index: 2;
+    color: #aab8c2;
+}
+
+.section-btn {
+    position: relative;
+    padding: 1px;
+    width: 36px;
+    height: 37px;
+    border: none;
+
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+}
+
+.section-btn-svg {
+    fill: #aab8c2;
+    width: 22px;
+    height: 22px;
+}
+
+.column-header-svg {
+    margin-top: 10px;
+    margin-left: 20px;
+    fill: #aab8c2;
+    width: 26px;
+    height: 26px;
+}
+
+.line-btn {
+    position: relative;
+    padding-top: 1px;
+    width: 36px;
+    border: none;
+
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+}
+
+.line-btn-space {
+    margin-bottom: 225px;
+}
+
+.app-navigator .line-btn-border {
+    padding-top: 6px;
+    margin: 0 auto 7px;
+    width: 23px;
+    border-bottom: 1px solid #aab8c2;
+}
+
+.app-navigator-full-size .line-btn-border{
+    padding-top: 6px;
+    margin: 0 auto 7px;
+    width: 140px;
+    border-bottom: 1px solid #aab8c2;
+}
+
+.additional-btn {
+    position: relative;
+    margin: 2px 0;
+    padding: 0;
+    width: 36px;
+    border: none;
+
+    text-align: center;
+    background-color: transparent;
+}
+
+.additional-btn-svg {
+    stroke: #1DA1F1;
+    fill:  #1DA1F1;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.app-navigator .btn-item-title {
+    display: none;
+}
+
+.app-navigator-full-size .btn-item-title {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 0 0 4px;
+    vertical-align: top;
+}
+
+.app-navigator .tweet-deck {
+    display: none;
+}
+
+.app-navigator-full-size .tweet-deck {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 5px 0 0 4px;
+    vertical-align: top;
+}
+
+.app-navigator-full-size .item-hint {
+    display: none;
+}
+
+.app-navigator .item-hint {
+    display: none;
+}
+
+.app-navigator .hoverable-btn:hover .item-hint {
+    display: inline-block;
+    position: absolute;
+    padding: 9px 15px 0;
+    top: 0;
+    left: 40px;
+    height: 27px;
+    width:max-content;
+
+    font-size: 14px;
+    color: #aab8c2;
+    background-color: #1c2938;
+    z-index: 100;
+}
+
+.app-navigator .newTweet-btn:hover .item-hint,
+.app-navigator .search-btn:hover .item-hint{
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    left: 33px;
+    height: 15px;
+    width: max-content;
+    border-radius: 3px;
+
+    font-size: 11px;
+    color: #FFFFFF;
+    background-color: #09111a;
+    z-index: 100;
+}
+
+.app-navigator .newTweet-btn:hover .item-hint {
+    padding: 4px 7px 2px 10px;
+    clip-path: polygon(7% 30%, 7% 0, 100% 0, 100% 100%, 7% 100%, 7% 70%, 0% 50%);
+}
+
+.app-navigator .search-btn:hover .item-hint {
+    padding: 4px 7px 2px 10px;
+    clip-path: polygon(11% 30%, 11% 0, 100% 0, 98% 100%, 11% 100%, 11% 70%, 0 50%);
+}
+
+.user-data {
+    margin: 0;
+    padding-top: 1px;
+    font-size: 12px;
+}

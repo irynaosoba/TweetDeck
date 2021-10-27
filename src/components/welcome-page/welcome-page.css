@@ -1,0 +1,81 @@
+.welcome-page {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("log-in-page.jpeg");
+    background-size: 100%;
+}
+
+.welcome-page-img {
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(circle, rgba(97, 132, 246, 0.7), rgba(28, 41, 56, 0.7));
+}
+
+.welcome-page-content {
+    display: flex;
+    justify-content: space-between;
+    width: 54vw;
+    margin: 0 auto;
+    padding: 10px 0;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.tweetdeck-logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tweetdeck-logo-text {
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.twitter-icon {
+    margin-right: 4px;
+    fill: #1DA1F1;
+    width: 32px;
+    height: 32px;
+}
+
+h1 {
+    margin-top: 150px;
+}
+
+.welcome-page-description {
+    width: 380px;
+    line-height: 1.3;
+    word-wrap: break-word;
+}
+
+.twitter-login-window {
+    padding: 16px 12px;
+    margin-top: 180px;
+    width: 290px;
+    height: max-content;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 4px;
+}
+
+.twitter-login-window div {
+    margin: 0 auto 12px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dadada;
+}
+
+.twitter-login-window svg {
+    width: 290px;
+    border-radius: 25px;
+}
+
+.twitter-login-window svg rect {
+    width: 290px;
+}
+
+.twitter-login-window path {
+    padding-right: 10px;
+}

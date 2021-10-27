@@ -1,0 +1,22 @@
+.notification-item {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 12px 12px 46px;
+    height: max-content;
+    font-size: 12px;
+    color: #8899a6;
+    border-bottom: #f0f0f0 .5px solid;
+}
+
+.user-screen-name {
+    padding-left: 4px;
+    font-size: 11px;
+}
+
+.user-display-name {
+    font-weight: 600;
+}
+
+.notification-text {
+    margin-top: 3px;
+}
